@@ -46,7 +46,6 @@ public class TeacherAdminController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        // Any initialization code here
     }
 
     public void setRole(String role) {
@@ -129,8 +128,6 @@ public class TeacherAdminController implements Initializable {
     }
 
     private void registerUser() {
-        // Implementation for user registration
-        // This would typically involve saving to a database
 
         showAlert("Success", "Registration successful! You can now login.");
 

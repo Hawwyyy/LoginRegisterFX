@@ -115,7 +115,7 @@ public class RegisterController implements Initializable {
     }
 
     private boolean validateForm() {
-        // Basic validation examples - expand as needed
+        // Basic validation
         if (fullNameField.getText().isEmpty()) {
             showAlert("Validation Error", "Please enter your full name.");
             return false;
@@ -140,9 +140,6 @@ public class RegisterController implements Initializable {
     }
 
     private void registerUser() {
-        // Implementation for user registration would go here
-        // Typically would involve database operations
-
         showAlert("Success", "Registration successful! You can now login.");
 
         // Navigate to login screen after successful registration

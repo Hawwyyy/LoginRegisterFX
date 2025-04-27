@@ -69,14 +69,11 @@ public class LoginController {
             return;
         }
 
-        // Add your authentication logic here
         System.out.println("Login attempt with username: " + username);
 
-        // For testing purposes - normally you would check credentials in a database
         boolean loginSuccessful = true;
 
         if (loginSuccessful) {
-            // Here you would navigate to your main application screen
             System.out.println("Login successful");
         }
     }
@@ -107,6 +104,5 @@ public class LoginController {
     protected void onForgotPasswordClick(ActionEvent event) {
         // Implement forgot password functionality
         System.out.println("Forgot password clicked");
-        // You could open a dialog or navigate to a password reset screen
     }
 }
